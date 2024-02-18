@@ -16,6 +16,8 @@
 		12EA58102B82212C008A5CA6 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 12EA580D2B82212C008A5CA6 /* videos.json */; };
 		12EA58122B822263008A5CA6 /* FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA58112B822263008A5CA6 /* FrameExtension.swift */; };
 		12EA58142B8223E0008A5CA6 /* JsonDecodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA58132B8223E0008A5CA6 /* JsonDecodeExtension.swift */; };
+		12EA58162B822DE9008A5CA6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA58152B822DE9008A5CA6 /* SplashView.swift */; };
+		12EA58182B822E82008A5CA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA58172B822E82008A5CA6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		12EA580D2B82212C008A5CA6 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 		12EA58112B822263008A5CA6 /* FrameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExtension.swift; sourceTree = "<group>"; };
 		12EA58132B8223E0008A5CA6 /* JsonDecodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodeExtension.swift; sourceTree = "<group>"; };
+		12EA58152B822DE9008A5CA6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		12EA58172B822E82008A5CA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				12EA57F22B821ED4008A5CA6 /* AnimalKRApp.swift */,
+				12EA58152B822DE9008A5CA6 /* SplashView.swift */,
+				12EA58172B822E82008A5CA6 /* HomeView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 			files = (
 				12EA57F52B821ED4008A5CA6 /* ContentView.swift in Sources */,
 				12EA57F32B821ED4008A5CA6 /* AnimalKRApp.swift in Sources */,
+				12EA58162B822DE9008A5CA6 /* SplashView.swift in Sources */,
+				12EA58182B822E82008A5CA6 /* HomeView.swift in Sources */,
 				12EA58122B822263008A5CA6 /* FrameExtension.swift in Sources */,
 				12EA58142B8223E0008A5CA6 /* JsonDecodeExtension.swift in Sources */,
 			);
