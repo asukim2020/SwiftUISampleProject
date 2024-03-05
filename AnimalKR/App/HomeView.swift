@@ -19,7 +19,7 @@ struct HomeView: View {
                     Text("홈")
                 }
             
-            VideoView()
+            VideoView(vm: vm)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("비디오")
@@ -31,7 +31,7 @@ struct HomeView: View {
                     Text("갤러리")
                 }
             
-            VideoView()
+            GallaryView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("앱정보")
