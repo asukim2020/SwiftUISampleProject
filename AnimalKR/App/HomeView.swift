@@ -25,13 +25,13 @@ struct HomeView: View {
                     Text("비디오")
                 }
             
-            GallaryView()
+            GallaryView(vm: vm)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("갤러리")
                 }
             
-            GallaryView()
+            GallaryView(vm: vm)
                 .tabItem {
                     Image(systemName: "gear")
                     Text("앱정보")
