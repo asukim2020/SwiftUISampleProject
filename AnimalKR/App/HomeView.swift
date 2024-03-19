@@ -31,7 +31,7 @@ struct HomeView: View {
                     Text("갤러리")
                 }
             
-            GallaryView(vm: vm)
+            AppInfoView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("앱정보")
